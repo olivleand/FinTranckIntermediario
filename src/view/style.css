@@ -1,0 +1,38 @@
+.root{
+    -fx-background-color:#1E1E2E;
+}
+
+.label{
+    -fx-text-fill:#FFFFFF;
+}
+
+.button{
+    -fx-background-color:#4CAF50;
+    -fx-text-fill:white;
+    -fx-background-radius:10;
+}
+
+.button:hover{
+    -fx-background-color:#45A049;
+}
+
+.table-view{
+    -fx-background-color:#2A2A3C;
+}
+
+.table-view .column-header{
+    -fx-background-color: #3B4CCA;
+}
+
+.table-view .column-header .label{
+    -fx-text-fill:white;
+    -fx-font-weight: bold;
+}
+
+.ehReceita(){
+    -fx-text-fill:#22C55E;
+}
+
+.ehDespesa{
+    -fx-text-fill:#EF4444;
+}

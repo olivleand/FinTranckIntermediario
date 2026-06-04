@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="controller.CadastroController">
+
+    <Label text="Nova Transação"/>
+
+    <TextField fx:id="txtDescricao"
+               promptText="Descrição"/>
+
+    <TextField fx:id="txtValor"
+               promptText="Valor"/>
+
+    <CheckBox fx:id="checkReceita"
+              text="Receita"/>
+
+    <Button text="Salvar"
+            onAction="#salvar"/>
+
+</VBox>

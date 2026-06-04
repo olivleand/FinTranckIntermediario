@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controller.MainController">
+
+    <top>
+
+        <VBox spacing="10">
+
+            <Label fx:id="tituloLabel"
+                   text="FINTRACK"
+                   style="-fx-font-size:20;" />
+
+            <HBox spacing="10">
+
+                <Button text="Adicionar"
+                        onAction="#adicionarTransacao"/>
+
+                <Button text="Remover"
+                        onAction="#removerTransacao"/>
+
+                <Button text="Atualizar"
+                        onAction="#atualizarTransacao"/>
+
+            </HBox>
+
+        </VBox>
+
+    </top>
+
+    <center>
+
+        <TableView fx:id="tabelaTransacoes">
+
+            <columns>
+
+                <TableColumn fx:id="colData"
+                             text="Data"/>
+
+                <TableColumn fx:id="colDescricao"
+                             text="Descrição"/>
+
+                <TableColumn fx:id="colValor"
+                             text="Valor"/>
+
+                <TableColumn fx:id="colTipo"
+                             text="Tipo"/>
+
+            </columns>
+
+        </TableView>
+
+    </center>
+
+</BorderPane>

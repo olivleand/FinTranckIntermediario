@@ -4,9 +4,9 @@ import controller.FinTracker;
 import model.Transaction;
 import utils.Colors;
 import utils.Formatter;
-
 import java.time.LocalDate;
 import java.util.Scanner;
+
 
 public class Main {
 
@@ -87,7 +87,6 @@ public class Main {
                 System.out.println("Erro inesperado: " + e.getMessage());
             }
         }
-
         scanner.close();
 
     }
